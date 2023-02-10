@@ -18,7 +18,8 @@ class Sum extends StatelessWidget {
               onPressed: () {
                 Get.back();
               },
-              child: Text('back'))
+              child: Text('back')),
+          Text(Get.arguments['price']??"No value")
         ],
       ),
     ));
